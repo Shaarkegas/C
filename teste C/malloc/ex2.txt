@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+#define N 8500000
+int main(){
+	//char *c = malloc(N); // Limite > 1GB
+	char c[N]; // Limite = 8 MB
+	for (int i=0;i<N;i++)
+		c[i]=' ';
+	for(;;);
+	
+	return 0;
+}
